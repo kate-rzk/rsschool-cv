@@ -1,13 +1,104 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="assets/img/1.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet">
+  <title>cv</title>
 </head>
+
 <body>
-        <h1>Katsiaryna Razhkova</h1>
+  <header class="header">
+    <nav class="nav">
+      <ul class="nav-list">
+        <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+        <li class="nav-item"><a href="#about-yourself" class="nav-link">About yourself</a></li>
+        <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+        <li class="nav-item"><a href="#code-example" class="nav-link">Code example</a></li>
+        <li class="nav-item"><a href="#experience" class="nav-link">Experience</a></li>
+        <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+        <li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
+      </ul>
+    </nav>
+    <div class="container"> </div>
+  </header>
+  <main class="main main-container">
+    <section class="section-profile" id="profile">
+      <div class="section-profile-logo"><img class="section-logo" src="assets/img/cv.jpg" width="185" height="185" alt="cv photo"></div>
+      <div class="section-profile-title">
+        <h1 class="section-title-profile">Katsiaryna Razhkova</h1>
+      </div>
+    </section>
+    <section class="section" id="contacts">
+      <h2 class="section-title">Contacts</h2>
+      <ul class="ul">
+        <li class="section-item">phone: <span>+375(29)225-13-20</span></li>
+        <li class="section-item">email: <span>razkovaekaterina@gmail.com</span></li>
+      </ul>
+    </section>
+    <section class="section" id="about-yourself">
+      <h2 class="section-title">About yourself</h2>
+      <p>Motivated and determined!<br>
+        Fast-learner and team player.<br>
+        All time I enjoy learning something new<br>
+        <span>(By the way: Do you know that cows moo<br>
+        with regional accents?).</span></p>
+    </section>
+    <section class="section" id="skills">
+      <h2 class="section-title">Skills</h2>
+      <ul class="ul">
+        <li class="section-item">HTML - <span>beginner</span></li>
+        <li class="section-item">CSS - <span>beginner</span></li>
+        <li class="section-item">JS - <span>beginner</span></li>
+        <li class="section-item">Git - <span>beginner</span></li>
+      </ul>
+    </section>
+    <section class="section" id="code-example">
+      <h2 class="section-title">Code example</h2>
+      <pre>
+function multiply(a, b){
+  return a * b
+}</pre>
+    </section>
+    <section class="section" id="experience">
+      <h2 class="section-title">Experience</h2>
+      <a class="section-link" href="https://github.com/kate-rzk/rsschool-cv">RS School CV Project</a>
+    </section>
+    <section class="section" id="education">
+      <h2 class="section-title">Education</h2>
+      <p>Belarusian state academy of communications</p>
+      <ul class="ul">
+        <li class="section-item">Bachelor degree:<br>
+          Faculty of engineering and communication<br>
+          technologies </li>
+        <li class="section-item">Master degree:<br>
+          Faculty of telecommunications, specialty -<br>
+          public administration</li>
+      </ul>
+    </section>
+    <section class="section-languages" id="languages">
+      <h2 class="section-title">Languages</h2>
+      <ul class="ul">
+        <li class="section-item">Belarussian - <span>Native</span></li>
+        <li class="section-item">Russian - <span>Native</span></li>
+        <li class="section-item">English - <span>A2</span></li>
+      </ul>
+    </section>
+    <div class="container"> </div>
+  </main>
+  <footer class="footer">
+    <div class="container">
+      <p> <strong>© 2022</strong>
+      <a class="footer-link" href="https://github.com/kate-rzk">kate-rzk</a></p>
+    </div>
+  </footer>
 </body>
 </html>
