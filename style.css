@@ -162,14 +162,31 @@ html {
 
 .footer-link {
   text-decoration: none;
-  color: #ffffff;
+  color: #000000;
   transition: text-decoration 0.9s;
 }
 
 .footer-link:hover {
-  text-decoration: underline 2px;
+  color: #ffffff;
 }
 
 span {
   color: #617463;
+}
+
+.container-footer {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+
+.container-footer div {
+  width: 150px;
+  padding-top: 10px;
+}
+
+.container-rzk {
+  color: #000000;
 }
