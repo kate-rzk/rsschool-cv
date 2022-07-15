@@ -1,6 +1,6 @@
 # Katsiaryna Razhkova
 
-![photo](assets/img/cv.jpg)
+<img src="assets/img/cv.jpg" width="185" height="185" alt="cv photo">
 
 ## Contacts
 phone: +375(29)225-13-20  
