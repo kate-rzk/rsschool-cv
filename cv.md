@@ -6,6 +6,7 @@
 phone: +375(29)225-13-20  
 email: katetigar@gmail.com
 
+***
 
 ## About yourself
 Motivated and determined!  
