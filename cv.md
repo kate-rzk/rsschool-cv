@@ -1,10 +1,11 @@
 # Katsiaryna Razhkova
 
-![photo](/img/photo.jpg)
+![photo](assets/img/photo.jpg)
 
 ## Contacts
 phone: +375(29)225-13-20  
 email: katetigar@gmail.com
+
 ***
 
 ## About yourself
